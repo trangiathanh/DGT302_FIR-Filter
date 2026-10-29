@@ -1,0 +1,15 @@
+{D:/nguyen/DGT302/project low pass fir/modelsim/fir32_lowpass.v} {1 {vlog -work work -stats=none {D:/nguyen/DGT302/project low pass fir/modelsim/fir32_lowpass.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fir32_lowpass
+
+Top level modules:
+	fir32_lowpass
+
+} {} {}} {D:/nguyen/DGT302/project low pass fir/modelsim/tb_fir32_lowpass.v} {1 {vlog -work work -stats=none {D:/nguyen/DGT302/project low pass fir/modelsim/tb_fir32_lowpass.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_fir32_lowpass
+
+Top level modules:
+	tb_fir32_lowpass
+
+} {} {}}
