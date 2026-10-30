@@ -81,27 +81,37 @@ flowchart LR
 
 ## 4. Cấu trúc thư mục
 
-> Cấu trúc dưới đây dựa trên các file nhóm đang có. Hãy chỉnh lại nếu bạn sắp xếp khác.
-
 ```text
 .
-├── README.md
-├── matlab/
-│   ├── Filter Coefficient.fda        # Phiên Filter Designer đã lưu
-│   ├── Fir_Lowpass_Analysis.m        # Phân tích đáp ứng tần số, so sánh trước/sau lọc
-│   ├── FIR_Lowpass_Model.slx         # Mô hình Simulink
-│   ├── FIR_Lowpass_Reference.mat     # Đáp ứng tham chiếu của MATLAB
-│   ├── Export_FIR_Data.m             # Xuất hệ số Q15 và dữ liệu vào cho Verilog
-│   ├── FIR_Verilog_Data.mat          # B_Q15, x_q, X_SCALE
-│   └── Compare_FIR_ModelSim.m        # So sánh MATLAB với ModelSim, tính RMSE
-├── modelsim/
-│   ├── fir32_lowpass.v               # Module FIR 32 hệ số
-│   ├── tb_fir32_lowpass.v            # Testbench
-│   ├── fir_input.hex                 # 161 mẫu đầu vào (do MATLAB xuất)
-│   └── fir_output.txt                # 161 mẫu đầu ra (do ModelSim ghi)
-└── docs/
-    ├── BaoCao_FIR_Lowpass.pdf        # Báo cáo đầy đủ
-    └── images/                       # Ảnh minh họa dùng trong README
+├── README.md                           # Tài liệu hướng dẫn đồ án
+├── refs/                               # Các tài liệu, bài báo và sách tham khảo
+│   ├── Design of FIR Filter Based on HDL Coder.pdf
+│   ├── Digital FIR Filter for Audio Signal.pdf
+│   ├── Discrete-Time Signal Processing.pdf
+│   ├── FIR Filter for Audio Signals Based on FPGA,1999-5652-1-LE_1.pdf
+│   └── Practical FIR Filter Design in MATLAB -- Losada A_R.pdf
+├── report/                             # Thư mục lưu trữ báo cáo
+│   └── report                          # File báo cáo chi tiết
+└── src/                                # Mã nguồn thiết kế và mô phỏng
+    ├── matlab/                         # Mã nguồn MATLAB & Simulink
+    │   ├── Compare_FIR_ModelSim.m      # Script so sánh kết quả MATLAB và ModelSim
+    │   ├── Export_FIR_Data.m           # Script xuất hệ số và dữ liệu cho Verilog
+    │   ├── Fir_Lowpass_Analysis.m      # Script phân tích phổ và đáp ứng tần số
+    │   ├── Filter Coefficent.fda       # File thiết kế hệ số bộ lọc (Filter Designer)
+    │   ├── FIR_Lowpass_Model.slx       # Mô hình hệ thống trên Simulink
+    │   ├── FIR_Lowpass_Reference.mat   # Dữ liệu đáp ứng mẫu
+    │   ├── FIR_Verilog_Data.mat        # Workspace dữ liệu đã lưu
+    │   ├── fir_input.hex               # Dữ liệu kích thích đầu vào (mã hex)
+    │   └── fir_output.txt              # Dữ liệu đầu ra tham chiếu
+    └── modelsim/                       # Mã nguồn Verilog & Project ModelSim
+        ├── FIR_Lowpass_Project.cr.mti  # Thông tin biên dịch ModelSim
+        ├── FIR_Lowpass_Project.mpf     # File project ModelSim
+        ├── fir32_lowpass.v             # Module Verilog chính (Bộ lọc FIR)
+        ├── tb_fir32_lowpass.v          # Testbench kiểm tra module FIR
+        ├── fir_coeff.hex               # Hệ số bộ lọc định dạng hex nạp vào ROM/RAM
+        ├── fir_input.hex               # Dữ liệu đầu vào cho testbench đọc
+        ├── fir_output.txt              # Kết quả mô phỏng ghi ra từ testbench
+        └── FIR_Verilog_Data.mat        # Dữ liệu tham khảo tại thư mục mô phỏng 
 ```
 
 ---
@@ -276,11 +286,13 @@ Compare_FIR_ModelSim    % in sai số lớn nhất, RMSE và vẽ đồ thị
 
 | Họ tên | MSSV | Vai trò |
 |---|---|---|
-| [Tên thành viên 1] | [MSSV] | [Vai trò] |
-| [Tên thành viên 2] | [MSSV] | [Vai trò] |
-| [Tên thành viên 3] | [MSSV] | [Vai trò] |
+| Trần Gia Thành | [SE203763] | [Vai trò] |
+| Châu Nhật Nguyên | [SE203853] | [Vai trò] |
+| Nguyễn Đăng Khoa | [SE204014] | [Vai trò] |
+| Võ Hoàng Trí | [SE204383] | [Vai trò] |
+| Hoàng Kiến Quốc | [SE203373] | [Vai trò] |
 
-**Giảng viên hướng dẫn:** [Tên giảng viên]
+**Giảng viên hướng dẫn:** [Phạm Thế Vinh]
 
 **Tài liệu tham khảo**
 
@@ -288,4 +300,4 @@ Compare_FIR_ModelSim    % in sai số lớn nhất, RMSE và vẽ đồ thị
 2. S. J. Orfanidis, *Introduction to Signal Processing*, Prentice Hall.
 3. MathWorks, tài liệu *Filter Designer* và *Simulink*.
 
-**Giấy phép:** [Chọn license, ví dụ MIT, hoặc ghi "Dùng cho mục đích học tập"].
+**Giấy phép:** [Dùng cho mục đích học tập].
