@@ -1,11 +1,5 @@
 # 🎛️ Bộ lọc FIR thông thấp 32 hệ số: MATLAB → Simulink → Verilog → ModelSim
 
-![MATLAB](https://img.shields.io/badge/MATLAB-R2025a-orange)
-![Simulink](https://img.shields.io/badge/Simulink-model-blue)
-![Verilog](https://img.shields.io/badge/HDL-Verilog-green)
-![ModelSim](https://img.shields.io/badge/Simulator-ModelSim%20Intel%20FPGA%202020.1-purple)
-![Status](https://img.shields.io/badge/status-simulation%20verified-brightgreen)
-
 Project môn **DGT302**: thiết kế bộ lọc **FIR thông thấp** bằng phương pháp cửa sổ Hamming, kiểm chứng trên **MATLAB/Simulink**, hiện thực bằng **Verilog** và so sánh kết quả mô phỏng **ModelSim** với MATLAB.
 
 > **Kết quả nổi bật:** 161/161 mẫu đầu ra của Verilog khớp với MATLAB, sai số lớn nhất ≈ **0,0095**, RMSE ≈ **0,0060** (nhỏ hơn 1 bước lượng tử 0,01).
