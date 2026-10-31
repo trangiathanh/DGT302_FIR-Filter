@@ -164,8 +164,7 @@ Ví dụ: `b[0] ≈ −0,00064` → **−21**. Sau khi nhân – cộng, kết q
 
 ![Đáp ứng tần số](https://raw.githubusercontent.com/trangiathanh/DGT302_FIR-Filter/725a2f02a369544bc51b9098c2c59466e7433003/images/%C4%90%C3%A1p%20%E1%BB%A9ng%20t%E1%BA%A7n%20s%E1%BB%91%20(Frequency%20Response).png)
 
-![Tín hiệu trước và sau khi lọc](https://raw.githubusercontent.com/trangiathanh/DGT302_FIR-Filter/T%C3%ADn%20hi%E1%BB%83u%20tr%C6%B0%E1%BB%9Bc%20v%C3%A0%20sau%20khi%20l%E1%BB%A5c%20(Input%20&%20Output%20Signal).png)
-
+![Tín hiệu trước và sau khi lọc](https://raw.githubusercontent.com/trangiathanh/DGT302_FIR-Filter/725a2f02a369544bc51b9098c2c59466e7433003/images/T%C3%ADn%20hi%E1%BB%83u%20tr%C6%B0%E1%BB%9Bc%20v%C3%A0%20sau%20khi%20l%E1%BB%8Dc%20(Input%20&%20Output%20Signal).png)
 Sau lọc, tín hiệu chỉ còn sóng **500 Hz** biên độ ≈ 0,69; thành phần 2500 Hz gần như biến mất.
 
 ---
