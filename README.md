@@ -162,9 +162,9 @@ Ví dụ: `b[0] ≈ −0,00064` → **−21**. Sau khi nhân – cộng, kết q
 | ≥ 1500 Hz | < −50 dB |
 | 2500 Hz | ≈ −65 đến −67 dB |
 
-[![Đáp ứng tần số]([docs/images/matlab_frequency_response.png](https://drive.google.com/file/d/1aaTYWCdO0M1cPWjpEsMOJAhJMaoGj2Cn/view?usp=drive_link))](https://github.com/trangiathanh/DGT302_FIR-Filter/blob/8ee7a77e61e11e43646409dbe3061cecd0e8682d/images/%C4%90%C3%A1p%20%E1%BB%A9ng%20t%E1%BA%A7n%20s%E1%BB%91%20(Frequency%20Response).png)
+![Đáp ứng tần số](https://raw.githubusercontent.com/trangiathanh/DGT302_FIR-Filter/725a2f02a369544bc51b9098c2c59466e7433003/images/%C4%90%C3%A1p%20%E1%BB%A9ng%20t%E1%BA%A7n%20s%E1%BB%91%20(Frequency%20Response).png)
 
-[![Tín hiệu trước và sau khi lọc]([docs/images/matlab_before_after.png](https://drive.google.com/file/d/1J23x4UsinFa3HbGGnizhe1xJ9-crz-kZ/view?usp=drive_link))](https://github.com/trangiathanh/DGT302_FIR-Filter/blob/8ee7a77e61e11e43646409dbe3061cecd0e8682d/images/T%C3%ADn%20hi%E1%BB%87u%20tr%C6%B0%E1%BB%9Bc%20v%C3%A0%20sau%20khi%20l%E1%BB%8Dc%20(Input%20%26%20Output%20Signal).png)
+![Tín hiệu trước và sau khi lọc](https://raw.githubusercontent.com/trangiathanh/DGT302_FIR-Filter/main/images/T%C3%ADn%20hi%E1%BB%83u%20tr%C6%B0%E1%BB%9Bc%20v%C3%A0%20sau%20khi%20l%E1%BB%A5c%20(Input%20&%20Output%20Signal).png)
 
 Sau lọc, tín hiệu chỉ còn sóng **500 Hz** biên độ ≈ 0,69; thành phần 2500 Hz gần như biến mất.
 
