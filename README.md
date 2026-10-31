@@ -162,9 +162,9 @@ Ví dụ: `b[0] ≈ −0,00064` → **−21**. Sau khi nhân – cộng, kết q
 | ≥ 1500 Hz | < −50 dB |
 | 2500 Hz | ≈ −65 đến −67 dB |
 
-![Đáp ứng tần số](docs/images/matlab_frequency_response.png)
+![Đáp ứng tần số]([docs/images/matlab_frequency_response.png](https://drive.google.com/file/d/1aaTYWCdO0M1cPWjpEsMOJAhJMaoGj2Cn/view?usp=drive_link))
 
-![Tín hiệu trước và sau khi lọc](docs/images/matlab_before_after.png)
+![Tín hiệu trước và sau khi lọc]([docs/images/matlab_before_after.png](https://drive.google.com/file/d/1J23x4UsinFa3HbGGnizhe1xJ9-crz-kZ/view?usp=drive_link))
 
 Sau lọc, tín hiệu chỉ còn sóng **500 Hz** biên độ ≈ 0,69; thành phần 2500 Hz gần như biến mất.
 
