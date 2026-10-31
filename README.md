@@ -210,9 +210,9 @@ Script `Compare_FIR_ModelSim.m` đọc `fir_output.txt`, chia cho `X_SCALE = 100
 | Sai số tuyệt đối lớn nhất | **0,00954506** |
 | RMSE | **0,00601066** |
 
-![So sánh MATLAB và ModelSim](docs/images/compare_matlab_modelsim.png)
+![Hình ảnh so sánh giữa MATLAB và ModelSim](https://raw.githubusercontent.com/trangiathanh/DGT302_FIR-Filter/f88f70e9520303f12d9e95b0e728d2a69028a616/images/H%C3%ACnh%20%E1%BA%A3nh%20so%20s%C3%A1nh%20gi%E1%BB%AFa%20MATLAB%20v%C3%A0%20ModelSim.png)
 
-![Sai số tuyệt đối](docs/images/absolute_error.png)
+![Hình ảnh sai số tuyệt đối](https://raw.githubusercontent.com/trangiathanh/DGT302_FIR-Filter/f88f70e9520303f12d9e95b0e728d2a69028a616/images/H%C3%ACnh%20%E1%BA%A3nh%20sai%20s%E1%BB%91%20tuy%E1%BB%87t%20%C4%91%E1%BB%91i.png)
 
 **Nhận xét**
 
