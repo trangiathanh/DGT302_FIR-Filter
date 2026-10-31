@@ -194,8 +194,7 @@ Ví dụ kiểm chứng trong ModelSim: `acc = 453445` → `453445 / 32768 ≈ 1
 
 Hệ số trong ModelSim đã được kiểm tra bằng lệnh `examine -radix decimal` và **trùng khớp** `B_Q15` của MATLAB (`h[0] = −21`, `h[1] = −60`, `h[2] = −84`, `h[3] = −52`, `h[4] = 78`, …).
 
-![Dạng sóng ModelSim](docs/images/modelsim_wave_161_samples.png)
-
+![Dạng sóng ModelSim](https://raw.githubusercontent.com/trangiathanh/DGT302_FIR-Filter/30e541faba58b7c037dd909ab451a50e1a6e0376/images/D%E1%BA%A1ng%20s%C3%B3ng%20ModelSim.png)
 Tổng thời gian mô phỏng: **1626 ns** (≈ 10 ns/mẫu).
 
 ---
